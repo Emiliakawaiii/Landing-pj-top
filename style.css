@@ -1,0 +1,16 @@
+/*Change the basic background color*/
+.first-section,
+.footer {
+    background-color: #1F2937;
+}
+
+.third-section {
+    background-color: #E5E7EB;
+}
+
+.fourth-section,
+.sign-up {
+    background-color: #3882F6;
+}
+
+/*Chane the text style*/
