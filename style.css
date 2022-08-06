@@ -13,4 +13,51 @@
     background-color: #3882F6;
 }
 
-/*Chane the text style*/
+/*Change the text style*/
+.text {
+    color: #F9FAF8;
+}
+
+.link-text {
+    color: #E5E7EB;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 800; /*Extra bold*/
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.in4-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.subtext {
+    font-size: 18px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.action {
+    font-size: 18px;
+    font-weight: 800;
+}
