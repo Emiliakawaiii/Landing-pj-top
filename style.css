@@ -1,3 +1,8 @@
+/*FONT*/
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 /*Change the basic background color*/
 .first-section,
 .footer {
@@ -60,4 +65,61 @@
 .action {
     font-size: 18px;
     font-weight: 800;
+}
+
+/*Remove bullet list and link underline*/
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*layout*/
+
+/*---------FIRST SECTION---------*/
+.first-section {
+    padding: 8px 100px 85px 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 85px;
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+}
+
+.girl {
+    display: flex;
+    flex-shrink: 1;
+    width: 100%;
+    height: auto;
+    /* Magic! */ /*https://stackoverflow.com/questions/4684304/how-can-i-resize-an-image-dynamically-with-css-as-the-browser-width-height-chang*/
+    max-width: 40vw;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+/*custom button*/
+.button1 {
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    padding: 3px;
+    width: 80px;
+}
+
+.button1:hover {
+    background-color: #3267bd; 
 }
