@@ -123,3 +123,30 @@ a {
 .button1:hover {
     background-color: #3267bd; 
 }
+
+/*---------SECOND SECTION---------*/
+.second-section {
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+}
+
+.in4-header {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 90px;
+}
+
+.cute-pics {
+    height: 450px;
+    width: auto;
+}
