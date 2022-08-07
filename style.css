@@ -152,6 +152,8 @@ a {
 .cute-pics {
     height: 450px;
     width: auto;
+    border: #b69ef8 5px solid;
+    border-radius: 10px;
 }
 
 /*---------THIRD SECTION---------*/
@@ -160,6 +162,10 @@ a {
     flex-flow: column wrap;
     padding: 64px 130px;
     margin-bottom: 64px;
+}
+
+.quote {
+    text-align: center;
 }
 
 .quote-author {
