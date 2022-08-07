@@ -13,7 +13,7 @@ body {
     background-color: #E5E7EB;
 }
 
-.fourth-section,
+.container-4,
 .sign-up {
     background-color: #3882F6;
 }
@@ -149,4 +149,49 @@ a {
 .cute-pics {
     height: 450px;
     width: auto;
+}
+
+/*---------THIRD SECTION---------*/
+.third-section {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 64px 130px;
+    margin-bottom: 64px;
+}
+
+.quote-author {
+    text-align: right;
+}
+
+/*---------FOURTH SECTION---------*/
+.fourth-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 64px;
+}
+
+.container-4 {
+    padding: 24px 100px;
+    border-radius: 8px;
+    max-width: 700px;
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+}
+
+.button4 {
+    font-weight: bold;
+    border: white 2px solid;
+    border-radius: 8px;
+}
+
+.button4:hover {
+    color: #3882F6;
+    background-color: white;
+}
+
+/*---------FOOTER---------*/
+.footer {
+    padding: 16px;
+    text-align: center;
 }
